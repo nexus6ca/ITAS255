@@ -13,7 +13,7 @@ class BlogController extends Controller
      */
     public function display() {
         // Display the controller and action name on the browser
-        return 'BlogController::display()';
+        return view('display');
     }
 
     /**
@@ -27,27 +27,27 @@ class BlogController extends Controller
      *
      */
     public function add() {
-        return	'BlogController::add()';
+        return	view('add');
     }
 
     /**
      *
      */
     public function save() {
-        return	'BlogController::save()';
+        return	view('save');
     }
 
     /**
      *
      */
     public function edit() {
-        return	'BlogController::edit()';
+        return	view('edit');
     }
 
     /**
      *
      */
     public function delete() {
-        return	'BlogController::delete()';
+        return	view('delete');
     }
 }
