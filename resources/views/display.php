@@ -51,5 +51,10 @@
     </table>
     <p><a href="/blog/add">Add a NEW blog entry</a></p>
 </div>
+<div>
+    <li><a	href="/login">Login</a></li>
+    <li><a	href="/register">Register</a></li>
+</div>
+
 </body>
 </html>

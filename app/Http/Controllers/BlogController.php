@@ -11,6 +11,10 @@ use App\Http\Requests;
 
 class BlogController extends Controller
 {
+    public	function	__construct()	{
+        $this->middleware('auth')->except(['display']);
+    }
+
     /**
      *	Retrieve all blog entries from the database and display them in a view.
      */
