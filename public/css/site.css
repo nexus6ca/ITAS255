@@ -1,0 +1,16 @@
+root	{
+    display:	block;
+}
+#header	{
+    color:	#0000FF;
+    font-size:	200%;
+}
+.odd	{
+    background-color:	#EEEEFF;
+}
+.even	{
+    background-color:	#FFFFFF;
+}
+.tbl_header	{
+    background-color:	#AAAAEE;
+}

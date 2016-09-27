@@ -7,6 +7,20 @@
  */
 ?>
 
-<!--Add View -->
+<!--ADD	View	-->
 <!DOCTYPE html>
-This is the Add View
+<html>
+    <head>
+        <title>Laravel 5 Blog</title>
+    </head>
+    <body>
+        ADD	VIEW
+        <form name="blog_form" action="/blog/save" method="POST">
+            <input type="hidden" name="_token" value="<?php	echo csrf_token()?>"/>
+            <p>Enter the title: <input name="title" type="text">
+            <p>Enter your text: <input name="entry"	type="text">
+                <input value="Post it!" type="submit"></p>
+            <div id="result"></div>
+        </form>
+    </body>
+</html>
