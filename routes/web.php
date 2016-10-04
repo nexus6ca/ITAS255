@@ -2,7 +2,6 @@
 Auth::routes();
 // Define all routes for the l5_blog project
 Route::get('/', 'BlogController@index');
-Route::get('/home', 'HomeController@index');
 Route::get('/blog/add', 'BlogController@add');
 Route::get('/blog/delete/{id}', 'BlogController@delete');
 Route::get('/blog/display', 'BlogController@display');
